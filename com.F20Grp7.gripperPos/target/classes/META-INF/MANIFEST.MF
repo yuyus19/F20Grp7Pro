@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1590239490579
+Build-Jdk: 1.8.0_242
+Built-By: ur
+Bundle-Activator: com.F20Grp7.gripperPos.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: 123 URCap Street
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: This is a description of the URCap
+Bundle-LicenseType: License type
+Bundle-ManifestVersion: 2
+Bundle-Name: gripperPos
+Bundle-SymbolicName: com.F20Grp7.gripperPos
+Bundle-Vendor: URCaps R us Inc.
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.ur.urcap.api.contribution.driver.general.tcp;version
+ ="[1.8,2)",com.ur.urcap.api.contribution.driver.general.userinput;versi
+ on="[1.7,2)",com.ur.urcap.api.contribution.driver.general.userinput.ent
+ erableinput;version="[1.7,2)",com.ur.urcap.api.contribution.driver.gene
+ ral.userinput.selectableinput;version="[1.7,2)",com.ur.urcap.api.contri
+ bution.driver.gripper;version="[1.9,2)",com.ur.urcap.api.domain.script;
+ version="[1.7,2)",com.ur.urcap.api.domain.value;version="[1.8,2)",com.u
+ r.urcap.api.domain.value.simple;version="[1.8,2)",javax.swing,org.osgi.
+ framework;version="[1.6,2)"
+Tool: Bnd-2.1.0.20130426-122213
